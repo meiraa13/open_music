@@ -1,0 +1,12 @@
+.teste {
+    background-color: var(--color-grey-8);
+    width: 300px;
+}
+img {
+    width: 300px;
+}
+
+.imagem-icone {
+    width: 20px;
+    height: 20px;
+}

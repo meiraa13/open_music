@@ -1,0 +1,24 @@
+.button {
+    background-color: var( --color-grey-7);
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    border-radius: var( --radius-1);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--color-grey-1);
+    color: var( --color-grey-9);
+}
+
+.botao-comprar {
+    background-color: var( --color-grey-7);
+    width: 60px;
+    border: none;
+    margin-right: 15px;
+    border-radius: var( --radius-1);
+    cursor: pointer;
+    color: var(--color-grey-1);
+
+}
