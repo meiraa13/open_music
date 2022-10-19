@@ -26,3 +26,14 @@ function darkMode () {
 }
 darkMode()
 
+let darkModePref = localStorage.getItem('darkmode')
+
+if(darkModePref){
+
+    const html = document.querySelector('html')
+    const iconeDm = document.getElementById('icone')
+
+    html.classList.toggle('dark-mode')
+    iconeDm.classList.toggle('text-white')
+    iconeDm.src = '../../assets/img/sun.png'
+}
