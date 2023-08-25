@@ -17,9 +17,9 @@ function darkMode () {
         }
 
         if(iconedm.classList.contains('text-white')){
-            iconedm.src = '../../assets/img/sun.png'
+            iconedm.src = '../assets/img/sun.png'
         } else {
-            iconedm.src = '../../assets/img/moon.png'
+            iconedm.src = '../assets/img/moon.png'
         }
     })
 
@@ -35,5 +35,5 @@ if(darkModePref){
 
     html.classList.toggle('dark-mode')
     iconeDm.classList.toggle('text-white')
-    iconeDm.src = '../../assets/img/sun.png'
+    iconeDm.src = '../assets/img/sun.png'
 }
